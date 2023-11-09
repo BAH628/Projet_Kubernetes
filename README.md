@@ -7,10 +7,12 @@ Centre de formation : eazytraining.fr
 
 LinkedIn : https://www.linkedin.com/in/maimounab
 
-
+-------
 
 Mini-projet: Déployez Wordpress à l'aide de manifests (et non par helm © )
 
+
+-------
 • Déployez wordpress en suivant les étapes suivantes
 
 * Créez un deployment mysql avec un seul replicat
