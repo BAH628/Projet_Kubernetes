@@ -8,7 +8,7 @@ Centre de formation : eazytraining.fr
 LinkedIn : https://www.linkedin.com/in/maimounab
 
 -------
-__Mini-projet-Kubernetes__
+#Mini-projet-Kubernetes
 
 -----
 Mini-projet: Déployez Wordpress à l'aide de manifests (et non par helm )
