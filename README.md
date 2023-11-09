@@ -13,10 +13,8 @@ Mini-projet: Déployez Wordpress à l'aide de manifests (et non par helm )
 
 
 -------
-• Déployez wordpress en suivant les étapes suivantes
-
-* Créez un deployment mysql avec un seul replicat
-
+• Déployez wordpress en suivant les étapes suivantes.
+• Créez un deployment mysql avec un seul replicat.
 • Créez un service de type clusteriP pour exposer vos pods mysql.
 Créez un deployment wordpress avec les bonnes variables d'environnement pour se connecter à la base de données mysql.
 Stocker les données de wordpress sur un volme mounté dans le /data de votre noeud.
