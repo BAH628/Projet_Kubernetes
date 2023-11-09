@@ -14,7 +14,7 @@ LinkedIn : https://www.linkedin.com/in/maimounab
 ## Sujet:
 -----
 
-![​​text]((/home/bella/Documents/bootcamp/Kubernetes/sujet.png)
+! ((/home/bella/Documents/bootcamp/Kubernetes/sujet.png)
 !(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvKMULbACc2pXCBhMQbUMICzojv2-0U3lRhQ&usqp=CAU)
 
 
