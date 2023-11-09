@@ -14,15 +14,11 @@ LinkedIn : https://www.linkedin.com/in/maimounab
 ## Sujet:
 -----
 
-! (/home/bella/Documents/bootcamp/Kubernetes/sujet.png)
-!(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvKMULbACc2pXCBhMQbUMICzojv2-0U3lRhQ&usqp=CAU)
-
-
-Mini-projet: Déployez Wordpress à l'aide de manifests (et non par helm )
+#### Mini-projet: Déployez Wordpress à l'aide de manifests (et non par helm )
 
 
 -------
-* Déployez wordpress en suivant les étapes suivantes.
+ Déployez wordpress en suivant les étapes suivantes:
 * Créez un deployment mysql avec un seul replicat.
 * Créez un service de type clusteriP pour exposer vos pods mysql.
 Créez un deployment wordpress avec les bonnes variables d'environnement pour se connecter à la base de données mysql.
