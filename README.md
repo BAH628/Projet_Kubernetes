@@ -11,6 +11,13 @@ LinkedIn : https://www.linkedin.com/in/maimounab
 # Mini-projet-Kubernetes
 
 -----
+## Sujet:
+-----
+
+![](/home/bella/Documents/bootcamp/Kubernetes/sujet.png)
+
+
+
 Mini-projet: Déployez Wordpress à l'aide de manifests (et non par helm )
 
 
