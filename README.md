@@ -8,8 +8,8 @@ Centre de formation : eazytraining.fr
 LinkedIn : https://www.linkedin.com/in/maimounab
 
 -------
-#Mini-projet-Kubernetes
-#titre sera l'équivalent d'un <h1> en html.
+# Mini-projet-Kubernetes
+
 -----
 Mini-projet: Déployez Wordpress à l'aide de manifests (et non par helm )
 
