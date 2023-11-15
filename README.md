@@ -27,7 +27,7 @@ LinkedIn : https://www.linkedin.com/in/maimounab
 
 ### Déploiement MySQL
 Le déploiement MySQL est défini avec l'API `apps/v1` et le type `Deployment`. Il spécifie les caractéristiques du déploiement, telles que le nombre de réplicas, la stratégie de déploiement et les conteneurs à exécuter.
-- Le déploiement "wp-mysql" et a des étiquettes qui le lient à l'application WordPress.
+- Le déploiement "wp-mysql" a des étiquettes qui le lient à l'application WordPress.
 - Comme demandé une réplique, ce qui signifie qu'un seul pod MySQL sera créé.
 - Les sélecteurs `matchLabels` sont utilisés pour associer les pods du déploiement aux services correspondants.
 - Le conteneur MySQL utilise l'image `mysql:5.7`.
