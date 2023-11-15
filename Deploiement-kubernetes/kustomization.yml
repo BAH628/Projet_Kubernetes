@@ -1,0 +1,13 @@
+resources:
+- ingress.yml
+- mysql-deployment.yml
+- mysql-service.yml
+- wordpress-deployment.yml
+- wordpress-secret.yml
+- mysql-pvc.yml
+- mysql-pv.yml
+- namespace.yml
+- wordpress-pv.yml
+- wordpress-pvc.yml
+- wordpress-service.yml
+- networkPolicy.yml

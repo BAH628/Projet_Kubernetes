@@ -1,0 +1,33 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: wordpress-network-policy
+  namespace: wordpress
+  labels:
+    app: wordpress
+    env: production
+    team: devops
+    release: v1.0
+spec:
+  podSelector:
+    matchLabels:
+      app: wordpress
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: wp-mysql
+    ports:
+    - protocol: TCP
+      port: 3306
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          app: wp-mysql
+    ports:
+    - protocol: TCP
+      port: 3306
+
+
+

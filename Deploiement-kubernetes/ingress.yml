@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wordpress-ingress
+  annotations:
+    kubernetes.io/ingress.class: haproxy 
+  namespace: wordpress
+  labels:
+    app: wordpress
+    env: production
+    team: devops
+    release: v1.0
+spec:
+  rules:
+  - host: wordpress.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: wordpress
+            port:
+              number: 80
+
